@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AI상담원</string>
+
+    <string name="action_bar_title">AI 상담</string>
+    <string name="menu_title_mma">병무청</string>
+    <string name="menu_title_samsung">삼성 전자</string>
+    <string name="menu_title_lg">LG 가전</string>
+
+    <string name="welcome_message">AI 상담 앱에 오신 것을 환영합니다.</string>
+</resources>

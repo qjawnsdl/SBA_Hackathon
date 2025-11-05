@@ -1,0 +1,31 @@
+--- Secrets ---
+
+.env, a.env 등 모든 .env 파일을 무시합니다.
+
+*.env
+.env
+
+--- Virtual Environment ---
+
+가상 환경 폴더(.venv)를 무시합니다.
+
+(이 폴더는 용량이 크고, 다른 컴퓨터에서 호환되지 않습니다)
+
+.venv/
+venv/
+env/
+
+--- Python Cache ---
+
+파이썬이 자동으로 생성하는 캐시 파일을 무시합니다.
+
+pycache/
+*.pyc
+*.pyo
+
+--- IDE Files ---
+
+VSCode 나 IntelliJ 같은 편집기 설정 파일을 무시합니다.
+
+.vscode/
+.idea/
