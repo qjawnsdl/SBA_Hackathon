@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  res/layout/item_chat_ai.xml
+  - AI 채팅 말풍선 (병무청 로고 포함)
+-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp">
+
+    <!-- 병무청 로고 (res/drawable/logo_mma.png 파일 필요) -->
+    <ImageView
+        android:id="@+id/imageAiProfile"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/logo_mma"
+        android:layout_gravity="top"
+        android:contentDescription="AI Profile" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="8dp">
+
+        <TextView
+            android:id="@+id/textAiSender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="병무청"
+            android:textColor="@color/text_primary"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textAiMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/bg_chat_ai"
+            android:padding="12dp"
+            android:text="무엇을 도와드릴까요?"
+            android:textColor="@color/text_primary"
+            android:textSize="16sp" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,10 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">AI상담원</string>
+    <string name="app_name">AI Chat</string>
+    <string name="action_bar_title">병무청 AI 상담원</string>
+    <string name="welcome_message">무엇을 도와드릴까요?</string>
 
-    <string name="action_bar_title">AI 상담</string>
+    <!-- 메뉴 타이틀 (main_menu.xml에서 사용) -->
     <string name="menu_title_mma">병무청</string>
-    <string name="menu_title_samsung">삼성 전자</string>
-    <string name="menu_title_lg">LG 가전</string>
+    <string name="menu_title_samsung">삼성</string>
+    <string name="menu_title_lg">LG</string>
 
-    <string name="welcome_message">AI 상담 앱에 오신 것을 환영합니다.</string>
+    <!-- 힌트 텍스트 (activity_main.xml에서 사용) -->
+    <string name="chat_hint">무엇이든 물어보세요</string>
+    <string name="send_button_desc">전송</string>
 </resources>

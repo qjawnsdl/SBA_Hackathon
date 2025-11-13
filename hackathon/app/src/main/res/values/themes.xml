@@ -1,9 +1,18 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.Hackathon" parent="Theme.Material3.DayNight">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  res/values/themes.xml
+-->
+<resources>
+    <!--
+      액션바 충돌 오류(IllegalStateException)를 해결하기 위해
+      부모 테마를 .NoActionBar로 변경합니다.
+    -->
+    <style name="Theme.Hackathon" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- 여기에 앱의 공통 색상 등을 지정할 수 있습니다. -->
+        <item name="colorPrimary">@color/app_primary</item>
+        <item name="colorPrimaryVariant">@color/app_primary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- 상태 표시줄 색상 (선택 사항) -->
+        <!-- <item name="android:statusBarColor">@color/app_background</item> -->
     </style>
-
-    <style name="Theme.Hackathon" parent="Base.Theme.Hackathon" />
 </resources>

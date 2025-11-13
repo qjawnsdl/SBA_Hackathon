@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- 스크린샷 기반 색상 -->
+    <color name="app_background">#F0F4FF</color> <!-- 연한 하늘색 배경 -->
+    <color name="app_primary">#4A90E2</color> <!-- 사용자 말풍선 (예시 파란색) -->
+    <color name="chat_bubble_ai">#FFFFFF</color> <!-- AI 말풍선 (흰색) -->
+    <color name="text_primary">#333333</color> <!-- 기본 텍스트 색상 -->
+    <color name="text_secondary">#888888</color> <!-- 힌트 텍스트 색상 -->
+
+    <!-- 기본 색상 -->
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 </resources>
