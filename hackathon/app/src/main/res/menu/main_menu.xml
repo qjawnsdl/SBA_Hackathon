@@ -3,21 +3,14 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
-        android:id="@+id/menu_mma"
-        android:title="@string/menu_title_mma"
-        android:orderInCategory="100"
+        android:id="@+id/menu_general_chat"
+        android:title="--- 일반 상담 ---"
+        android:orderInCategory="1"
         app:showAsAction="never" />
 
-    <item
-        android:id="@+id/menu_samsung"
-        android:title="@string/menu_title_samsung"
-        android:orderInCategory="200"
-        app:showAsAction="never" />
-
-    <item
-        android:id="@+id/menu_lg"
-        android:title="@string/menu_title_lg"
-        android:orderInCategory="300"
-        app:showAsAction="never" />
+    <group
+        android:id="@+id/menu_group_companies"
+        android:orderInCategory="100">
+    </group>
 
 </menu>

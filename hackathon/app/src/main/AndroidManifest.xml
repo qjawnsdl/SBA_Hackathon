@@ -16,14 +16,20 @@
         android:usesCleartextTraffic="true"
         android:theme="@style/Theme.Hackathon">
         <activity
-            android:name=".MainActivity"
-            android:exported="true">
+            android:name=".StartSelectionActivity"  android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".EnterpriseHomeActivity"
+            android:label="기업용 매뉴얼 관리" />
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:label="AI 상담" />
     </application>
 
 </manifest>
